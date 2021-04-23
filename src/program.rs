@@ -229,7 +229,7 @@ impl fmt::LowerHex for Flags {
 }
 
 #[derive(Copy, Clone, Default)]
-pub struct Type_(u32);
+pub struct Type_(pub u32);
 
 #[derive(Copy, Clone, Debug, Eq, PartialEq)]
 pub enum Type {
